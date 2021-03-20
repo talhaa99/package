@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "talha/calculator",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "This demo package will do some calculation",
     "keywords": [
         "framework",
         "laravel"
