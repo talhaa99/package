@@ -34,15 +34,20 @@
         }
     },
     "autoload": {
+        "classmap": [
+            "database"
+        ],
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Talha\\Calculator\\": "packages/talha/calculator/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Talha\\Calculator\\": "packages/talha/calculator/src"
         }
     },
     "minimum-stability": "dev",
